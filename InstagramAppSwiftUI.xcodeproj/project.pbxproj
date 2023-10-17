@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48320DE62ADF4C7500360F31 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DE52ADF4C7500360F31 /* AddEmailView.swift */; };
 		485A4A2A2ADEA014002CB07B /* InstagramAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A292ADEA014002CB07B /* InstagramAppSwiftUIApp.swift */; };
 		485A4A2C2ADEA014002CB07B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A2B2ADEA014002CB07B /* ContentView.swift */; };
 		485A4A2E2ADEA015002CB07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485A4A2D2ADEA015002CB07B /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48320DE52ADF4C7500360F31 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 		485A4A262ADEA014002CB07B /* InstagramAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485A4A292ADEA014002CB07B /* InstagramAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		485A4A2B2ADEA014002CB07B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				485A4A6C2ADEF54B002CB07B /* LoginView.swift */,
+				48320DE52ADF4C7500360F31 /* AddEmailView.swift */,
 			);
 			path = Authentification;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				485A4A2C2ADEA014002CB07B /* ContentView.swift in Sources */,
 				485A4A6D2ADEF54B002CB07B /* LoginView.swift in Sources */,
 				485A4A2A2ADEA014002CB07B /* InstagramAppSwiftUIApp.swift in Sources */,
+				48320DE62ADF4C7500360F31 /* AddEmailView.swift in Sources */,
 				485A4A6B2ADEE8F6002CB07B /* SearchView.swift in Sources */,
 				485A4A652ADEC851002CB07B /* UserStatView.swift in Sources */,
 				485A4A672ADEDCDE002CB07B /* FeedView.swift in Sources */,
