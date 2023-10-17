@@ -15,6 +15,8 @@
 		485A4A452ADEA015002CB07B /* InstagramAppSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A442ADEA015002CB07B /* InstagramAppSwiftUIUITests.swift */; };
 		485A4A472ADEA015002CB07B /* InstagramAppSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A462ADEA015002CB07B /* InstagramAppSwiftUIUITestsLaunchTests.swift */; };
 		485A4A602ADEA292002CB07B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A5F2ADEA292002CB07B /* MainTabView.swift */; };
+		485A4A622ADEA573002CB07B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A612ADEA573002CB07B /* ProfileView.swift */; };
+		485A4A652ADEC851002CB07B /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A642ADEC851002CB07B /* UserStatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		485A4A442ADEA015002CB07B /* InstagramAppSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAppSwiftUIUITests.swift; sourceTree = "<group>"; };
 		485A4A462ADEA015002CB07B /* InstagramAppSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAppSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		485A4A5F2ADEA292002CB07B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		485A4A612ADEA573002CB07B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		485A4A642ADEC851002CB07B /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 		485A4A562ADEA122002CB07B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				485A4A632ADEB653002CB07B /* Components */,
 				485A4A5C2ADEA1BA002CB07B /* Authentification */,
 				485A4A5B2ADEA1B7002CB07B /* Feed */,
 				485A4A5A2ADEA1B4002CB07B /* Profile */,
@@ -193,6 +198,7 @@
 		485A4A5A2ADEA1B4002CB07B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				485A4A612ADEA573002CB07B /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -224,6 +230,14 @@
 				485A4A5F2ADEA292002CB07B /* MainTabView.swift */,
 			);
 			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		485A4A632ADEB653002CB07B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				485A4A642ADEC851002CB07B /* UserStatView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,8 +370,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				485A4A622ADEA573002CB07B /* ProfileView.swift in Sources */,
 				485A4A2C2ADEA014002CB07B /* ContentView.swift in Sources */,
 				485A4A2A2ADEA014002CB07B /* InstagramAppSwiftUIApp.swift in Sources */,
+				485A4A652ADEC851002CB07B /* UserStatView.swift in Sources */,
 				485A4A602ADEA292002CB07B /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
