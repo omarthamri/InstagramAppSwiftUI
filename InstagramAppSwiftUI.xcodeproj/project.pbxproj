@@ -20,6 +20,7 @@
 		485A4A672ADEDCDE002CB07B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A662ADEDCDE002CB07B /* FeedView.swift */; };
 		485A4A692ADEDCE9002CB07B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A682ADEDCE9002CB07B /* FeedCell.swift */; };
 		485A4A6B2ADEE8F6002CB07B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A6A2ADEE8F6002CB07B /* SearchView.swift */; };
+		485A4A6D2ADEF54B002CB07B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A6C2ADEF54B002CB07B /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		485A4A662ADEDCDE002CB07B /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		485A4A682ADEDCE9002CB07B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		485A4A6A2ADEE8F6002CB07B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		485A4A6C2ADEF54B002CB07B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 		485A4A5C2ADEA1BA002CB07B /* Authentification */ = {
 			isa = PBXGroup;
 			children = (
+				485A4A6C2ADEF54B002CB07B /* LoginView.swift */,
 			);
 			path = Authentification;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				485A4A692ADEDCE9002CB07B /* FeedCell.swift in Sources */,
 				485A4A622ADEA573002CB07B /* ProfileView.swift in Sources */,
 				485A4A2C2ADEA014002CB07B /* ContentView.swift in Sources */,
+				485A4A6D2ADEF54B002CB07B /* LoginView.swift in Sources */,
 				485A4A2A2ADEA014002CB07B /* InstagramAppSwiftUIApp.swift in Sources */,
 				485A4A6B2ADEE8F6002CB07B /* SearchView.swift in Sources */,
 				485A4A652ADEC851002CB07B /* UserStatView.swift in Sources */,
