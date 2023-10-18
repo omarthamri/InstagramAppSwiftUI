@@ -1,26 +1,27 @@
 //
-//  ProfileView.swift
+//  CurrentUserProfileView.swift
 //  InstagramAppSwiftUI
 //
-//  Created by omar thamri on 17/10/2023.
+//  Created by omar thamri on 18/10/2023.
 //
 
 import SwiftUI
 
-struct ProfileView: View {
-    let user: User
+struct CurrentUserProfileView: View {
     private let gridItems: [GridItem] = [
         .init(.flexible(),spacing: 1),
         .init(.flexible(),spacing: 1),
         .init(.flexible(),spacing: 1)
     ]
+    
     var body: some View {
+        NavigationStack {
             ScrollView {
                 // header
                 VStack(spacing: 10) {
                     //pic and stats
                     HStack {
-                        Image(user.imageUrl ?? "")
+                        Image("wanda")
                             .resizable()
                             .scaledToFill()
                             .frame(width:80,height: 80)
@@ -35,10 +36,10 @@ struct ProfileView: View {
                     .padding(.horizontal)
                     // name and bio
                     VStack(alignment: .leading,spacing: 4) {
-                        Text(user.username)
+                        Text("Wanda Maximov")
                             .font(.footnote)
                             .fontWeight(.semibold)
-                        Text(user.bio ?? "")
+                        Text("Avengers for life")
                             .font(.footnote)
                     }
                     .frame(maxWidth: .infinity,alignment: .leading)
@@ -72,9 +73,19 @@ struct ProfileView: View {
             }
             .navigationTitle("Profile")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                        Image(systemName: "line.3.horizontal")
+                            .foregroundColor(.black)
+                    })
+                    
+                }
+            }
         }
-}
+        }
+    }
 
 #Preview {
-    ProfileView(user: User.mockUsers[0])
+    CurrentUserProfileView()
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4827B0BE2AE011530007F3BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827B0BD2AE011530007F3BD /* User.swift */; };
+		4827B0C02AE0190A0007F3BD /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827B0BF2AE0190A0007F3BD /* CurrentUserProfileView.swift */; };
 		48320DE62ADF4C7500360F31 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DE52ADF4C7500360F31 /* AddEmailView.swift */; };
 		48320DE82ADF623300360F31 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DE72ADF623300360F31 /* IGTextFieldModifier.swift */; };
 		48320DEA2ADF639B00360F31 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DE92ADF639B00360F31 /* CreateUsernameView.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4827B0BD2AE011530007F3BD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4827B0BF2AE0190A0007F3BD /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 		48320DE52ADF4C7500360F31 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 		48320DE72ADF623300360F31 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
 		48320DE92ADF639B00360F31 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
@@ -165,6 +169,7 @@
 		485A4A542ADEA11C002CB07B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4827B0BD2AE011530007F3BD /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				485A4A612ADEA573002CB07B /* ProfileView.swift */,
+				4827B0BF2AE0190A0007F3BD /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -402,9 +408,11 @@
 				485A4A2C2ADEA014002CB07B /* ContentView.swift in Sources */,
 				485A4A6D2ADEF54B002CB07B /* LoginView.swift in Sources */,
 				485A4A2A2ADEA014002CB07B /* InstagramAppSwiftUIApp.swift in Sources */,
+				4827B0C02AE0190A0007F3BD /* CurrentUserProfileView.swift in Sources */,
 				48320DE62ADF4C7500360F31 /* AddEmailView.swift in Sources */,
 				48320DEA2ADF639B00360F31 /* CreateUsernameView.swift in Sources */,
 				48320DEE2ADF67B500360F31 /* CompleteSignUpView.swift in Sources */,
+				4827B0BE2AE011530007F3BD /* User.swift in Sources */,
 				485A4A6B2ADEE8F6002CB07B /* SearchView.swift in Sources */,
 				48320DE82ADF623300360F31 /* IGTextFieldModifier.swift in Sources */,
 				485A4A652ADEC851002CB07B /* UserStatView.swift in Sources */,
