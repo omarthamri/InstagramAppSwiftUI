@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		48320DE62ADF4C7500360F31 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DE52ADF4C7500360F31 /* AddEmailView.swift */; };
+		48320DE82ADF623300360F31 /* IGTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DE72ADF623300360F31 /* IGTextFieldModifier.swift */; };
+		48320DEA2ADF639B00360F31 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DE92ADF639B00360F31 /* CreateUsernameView.swift */; };
+		48320DEC2ADF665800360F31 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DEB2ADF665800360F31 /* CreatePasswordView.swift */; };
+		48320DEE2ADF67B500360F31 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DED2ADF67B500360F31 /* CompleteSignUpView.swift */; };
 		485A4A2A2ADEA014002CB07B /* InstagramAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A292ADEA014002CB07B /* InstagramAppSwiftUIApp.swift */; };
 		485A4A2C2ADEA014002CB07B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A2B2ADEA014002CB07B /* ContentView.swift */; };
 		485A4A2E2ADEA015002CB07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485A4A2D2ADEA015002CB07B /* Assets.xcassets */; };
@@ -43,6 +47,10 @@
 
 /* Begin PBXFileReference section */
 		48320DE52ADF4C7500360F31 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		48320DE72ADF623300360F31 /* IGTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTextFieldModifier.swift; sourceTree = "<group>"; };
+		48320DE92ADF639B00360F31 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
+		48320DEB2ADF665800360F31 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		48320DED2ADF67B500360F31 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 		485A4A262ADEA014002CB07B /* InstagramAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485A4A292ADEA014002CB07B /* InstagramAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		485A4A2B2ADEA014002CB07B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -228,6 +236,9 @@
 			children = (
 				485A4A6C2ADEF54B002CB07B /* LoginView.swift */,
 				48320DE52ADF4C7500360F31 /* AddEmailView.swift */,
+				48320DE92ADF639B00360F31 /* CreateUsernameView.swift */,
+				48320DEB2ADF665800360F31 /* CreatePasswordView.swift */,
+				48320DED2ADF67B500360F31 /* CompleteSignUpView.swift */,
 			);
 			path = Authentification;
 			sourceTree = "<group>";
@@ -251,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				485A4A642ADEC851002CB07B /* UserStatView.swift */,
+				48320DE72ADF623300360F31 /* IGTextFieldModifier.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -391,10 +403,14 @@
 				485A4A6D2ADEF54B002CB07B /* LoginView.swift in Sources */,
 				485A4A2A2ADEA014002CB07B /* InstagramAppSwiftUIApp.swift in Sources */,
 				48320DE62ADF4C7500360F31 /* AddEmailView.swift in Sources */,
+				48320DEA2ADF639B00360F31 /* CreateUsernameView.swift in Sources */,
+				48320DEE2ADF67B500360F31 /* CompleteSignUpView.swift in Sources */,
 				485A4A6B2ADEE8F6002CB07B /* SearchView.swift in Sources */,
+				48320DE82ADF623300360F31 /* IGTextFieldModifier.swift in Sources */,
 				485A4A652ADEC851002CB07B /* UserStatView.swift in Sources */,
 				485A4A672ADEDCDE002CB07B /* FeedView.swift in Sources */,
 				485A4A602ADEA292002CB07B /* MainTabView.swift in Sources */,
+				48320DEC2ADF665800360F31 /* CreatePasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
