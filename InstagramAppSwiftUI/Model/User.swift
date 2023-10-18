@@ -23,7 +23,8 @@ extension User {
         .init(id: UUID().uuidString, username: "Michael Scott", imageUrl: "MichaelScott", fullName: "Michael Scott", bio: "Dunder Mufflin manager", email: "michael.scott@gmail.com"),
         .init(id: UUID().uuidString, username: "Pam Beesly", imageUrl: "pam", fullName: "Pam Beesly", bio: "Secretary", email: "pam.beesly@gmail.com"),
         .init(id: UUID().uuidString, username: "Dwight Schrute", imageUrl: "dwight", fullName: "Dwight Schrute", bio: "Dunder Mufflin salesman", email: "dwight.schrute@gmail.com"),
-        .init(id: UUID().uuidString, username: "Jim Halpert", imageUrl: "jim", fullName: "Jim Halpert", bio: "Dunder Mufflin salesman", email: "jim.halpert@gmail.com")
+        .init(id: UUID().uuidString, username: "Jim Halpert", imageUrl: "jim", fullName: "Jim Halpert", bio: "Dunder Mufflin salesman", email: "jim.halpert@gmail.com"),
+        .init(id: UUID().uuidString, username: "Wanda Maximov", imageUrl: "wanda", fullName: "Wanda Maximov", bio: "works in Avengers", email: "wanda.maximov@gmail.com")
     ]
     
 }
