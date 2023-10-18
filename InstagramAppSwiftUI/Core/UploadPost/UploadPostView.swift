@@ -12,6 +12,7 @@ struct UploadPostView: View {
     @State private var caption: String = ""
     @State private var photoPickerPresented: Bool = false
     @StateObject private var viewModel = UploadPostViewModel()
+    @Binding var tabIndex: Int
     var body: some View {
         VStack {
             // actions toolbar
@@ -20,6 +21,7 @@ struct UploadPostView: View {
                     caption = ""
                     viewModel.selectedImage = nil
                     viewModel.postImage = nil
+                    tabIndex = 0
                 }, label: {
                     Text("Cancel upload")
                 })
@@ -57,5 +59,5 @@ struct UploadPostView: View {
 }
 
 #Preview {
-    UploadPostView()
+    UploadPostView(tabIndex: .constant(0))
 }
