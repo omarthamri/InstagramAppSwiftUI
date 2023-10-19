@@ -15,8 +15,9 @@ class SearchViewModel: ObservableObject {
         Task { try await fetchAllUsers() }
     }
     
+    @MainActor
     func fetchAllUsers() async throws {
-        let users = try await UserService.fetchAllUsers()
+        self.users = try await UserService.fetchAllUsers()
     }
     
 }
