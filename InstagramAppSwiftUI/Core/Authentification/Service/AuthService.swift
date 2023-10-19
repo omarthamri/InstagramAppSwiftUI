@@ -22,7 +22,12 @@ class AuthService {
     }
     
     func createUser(email: String,password: String,username: String) async throws {
-        
+        do {
+            let result = try await Auth.auth().createUser(withEmail: email, password: password)
+            userSession = result.user
+        } catch {
+            print("failed to create user \(error.localizedDescription)")
+        }
     }
     
     func loadUserData() async throws {

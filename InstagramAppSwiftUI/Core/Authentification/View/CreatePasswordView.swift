@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CreatePasswordView: View {
     @Environment(\.dismiss) var dismiss
-    @State private var password: String = ""
+    @EnvironmentObject var viewModel: RegistrationViewModel
     var body: some View {
         VStack(spacing: 12) {
             Text("Create a password")
@@ -21,7 +21,7 @@ struct CreatePasswordView: View {
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal,24)
-            SecureField("Password",text: $password)
+            SecureField("Password",text: $viewModel.password)
                 .modifier(IGTextFieldModifier())
                 .padding(.top)
             NavigationLink {
