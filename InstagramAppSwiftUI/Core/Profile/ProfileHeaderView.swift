@@ -37,14 +37,22 @@ struct ProfileHeaderView: View {
             .frame(maxWidth: .infinity,alignment: .leading)
             .padding(.horizontal)
             // action button
-            Button(action: {}, label: {
-                Text("Edit Profile")
+            Button(action: {
+                if user.isCurrentUser {
+                    print("edit profile")
+                } else {
+                    print("follow user")
+                }
+            }, label: {
+                Text(user.isCurrentUser ? "Edit Profile" : "Follow")
                     .font(.subheadline)
                     .fontWeight(.semibold)
-                    .foregroundColor(.black)
+                    .foregroundColor(user.isCurrentUser ? .black : .white)
                     .frame(width: 360,height: 32)
+                    .background(user.isCurrentUser ? .white : Color(.systemBlue))
+                    .cornerRadius(6)
                     .overlay {
-                        RoundedRectangle(cornerRadius: 6).stroke(.gray,lineWidth: 1)
+                        RoundedRectangle(cornerRadius: 6).stroke(user.isCurrentUser ? .gray : .clear,lineWidth: 1)
                     }
             })
             Divider()
