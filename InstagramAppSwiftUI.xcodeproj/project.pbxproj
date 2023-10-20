@@ -342,8 +342,8 @@
 		485A4A5D2ADEA202002CB07B /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
-				4827B0C72AE03D700007F3BD /* UploadPostView.swift */,
-				4827B0C92AE047200007F3BD /* UploadPostViewModel.swift */,
+				48CC6D822AE3455400BA4782 /* View */,
+				48CC6D812AE3454700BA4782 /* ViewModel */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -365,6 +365,22 @@
 				48516D482AE2ECAC00DABD1C /* CircularProfileImageView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		48CC6D812AE3454700BA4782 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4827B0C92AE047200007F3BD /* UploadPostViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48CC6D822AE3455400BA4782 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4827B0C72AE03D700007F3BD /* UploadPostView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		48D2F4202AE0A7A000A3D8A2 /* View */ = {
