@@ -13,7 +13,12 @@ struct EditProfileView: View {
     @State private var selectedItem: PhotosPickerItem?
     @State private var fullname = ""
     @State private var bio = ""
-    @StateObject private var viewModel = EditProfileViewModel()
+    @StateObject private var viewModel: EditProfileViewModel
+    
+    init(user: User) {
+        self._viewModel = StateObject(wrappedValue: EditProfileViewModel(user: user))
+    }
+    
     var body: some View {
         VStack {
             //toolbar
@@ -28,7 +33,7 @@ struct EditProfileView: View {
                         .fontWeight(.semibold)
                     Spacer()
                     Button(action: {
-                        print("update profile info")
+                        Task { try await viewModel.updateUserData()}
                     }, label: {
                         Text("Done")
                             .font(.subheadline)
@@ -75,7 +80,7 @@ struct EditProfileView: View {
 }
 
 #Preview {
-    EditProfileView()
+    EditProfileView(user: User.mockUsers[0])
 }
 
 struct EditProfileRowView: View {
