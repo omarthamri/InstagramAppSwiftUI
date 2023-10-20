@@ -24,6 +24,7 @@
 		48320DEC2ADF665800360F31 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DEB2ADF665800360F31 /* CreatePasswordView.swift */; };
 		48320DEE2ADF67B500360F31 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48320DED2ADF67B500360F31 /* CompleteSignUpView.swift */; };
 		48516D3C2AE29CC600DABD1C /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48516D3B2AE29CC600DABD1C /* EditProfileView.swift */; };
+		48516D402AE2B45200DABD1C /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48516D3F2AE2B45200DABD1C /* EditProfileViewModel.swift */; };
 		485A4A2A2ADEA014002CB07B /* InstagramAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A292ADEA014002CB07B /* InstagramAppSwiftUIApp.swift */; };
 		485A4A2C2ADEA014002CB07B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A2B2ADEA014002CB07B /* ContentView.swift */; };
 		485A4A2E2ADEA015002CB07B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 485A4A2D2ADEA015002CB07B /* Assets.xcassets */; };
@@ -82,6 +83,7 @@
 		48320DEB2ADF665800360F31 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		48320DED2ADF67B500360F31 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 		48516D3B2AE29CC600DABD1C /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		48516D3F2AE2B45200DABD1C /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
 		485A4A262ADEA014002CB07B /* InstagramAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		485A4A292ADEA014002CB07B /* InstagramAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		485A4A2B2ADEA014002CB07B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,25 @@
 				482E7B8B2AE19E1200D50D6F /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48516D3D2AE2B40100DABD1C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				48516D3F2AE2B45200DABD1C /* EditProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48516D3E2AE2B40B00DABD1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				485A4A612ADEA573002CB07B /* ProfileView.swift */,
+				4827B0BF2AE0190A0007F3BD /* CurrentUserProfileView.swift */,
+				4827B0C52AE039FD0007F3BD /* ProfileHeaderView.swift */,
+				48516D3B2AE29CC600DABD1C /* EditProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		485A4A1D2ADEA014002CB07B = {
@@ -286,10 +307,8 @@
 		485A4A5A2ADEA1B4002CB07B /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				485A4A612ADEA573002CB07B /* ProfileView.swift */,
-				4827B0BF2AE0190A0007F3BD /* CurrentUserProfileView.swift */,
-				4827B0C52AE039FD0007F3BD /* ProfileHeaderView.swift */,
-				48516D3B2AE29CC600DABD1C /* EditProfileView.swift */,
+				48516D3E2AE2B40B00DABD1C /* View */,
+				48516D3D2AE2B40100DABD1C /* ViewModel */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -521,6 +540,7 @@
 				485A4A622ADEA573002CB07B /* ProfileView.swift in Sources */,
 				485A4A2C2ADEA014002CB07B /* ContentView.swift in Sources */,
 				485A4A6D2ADEF54B002CB07B /* LoginView.swift in Sources */,
+				48516D402AE2B45200DABD1C /* EditProfileViewModel.swift in Sources */,
 				48D2F4232AE0A7DE00A3D8A2 /* AuthService.swift in Sources */,
 				482E7B882AE19C0000D50D6F /* UserService.swift in Sources */,
 				4827B0C22AE024440007F3BD /* Post.swift in Sources */,
