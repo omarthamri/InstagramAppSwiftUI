@@ -42,6 +42,7 @@
 		485A4A692ADEDCE9002CB07B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A682ADEDCE9002CB07B /* FeedCell.swift */; };
 		485A4A6B2ADEE8F6002CB07B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A6A2ADEE8F6002CB07B /* SearchView.swift */; };
 		485A4A6D2ADEF54B002CB07B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485A4A6C2ADEF54B002CB07B /* LoginView.swift */; };
+		48CC6D862AE34D2B00BA4782 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC6D852AE34D2B00BA4782 /* FeedViewModel.swift */; };
 		48D2F4162AE0A45D00A3D8A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48D2F4152AE0A45D00A3D8A2 /* GoogleService-Info.plist */; };
 		48D2F4192AE0A58B00A3D8A2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 48D2F4182AE0A58B00A3D8A2 /* FirebaseAuth */; };
 		48D2F41B2AE0A58B00A3D8A2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 48D2F41A2AE0A58B00A3D8A2 /* FirebaseFirestore */; };
@@ -106,6 +107,7 @@
 		485A4A682ADEDCE9002CB07B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		485A4A6A2ADEE8F6002CB07B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		485A4A6C2ADEF54B002CB07B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		48CC6D852AE34D2B00BA4782 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		48D2F4152AE0A45D00A3D8A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		48D2F4222AE0A7DE00A3D8A2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		48D2F4262AE0AAA700A3D8A2 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
@@ -323,8 +325,8 @@
 		485A4A5B2ADEA1B7002CB07B /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				485A4A662ADEDCDE002CB07B /* FeedView.swift */,
-				485A4A682ADEDCE9002CB07B /* FeedCell.swift */,
+				48CC6D842AE34D1900BA4782 /* ViewModel */,
+				48CC6D832AE34D0F00BA4782 /* View */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -381,6 +383,23 @@
 				4827B0C72AE03D700007F3BD /* UploadPostView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		48CC6D832AE34D0F00BA4782 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				485A4A662ADEDCDE002CB07B /* FeedView.swift */,
+				485A4A682ADEDCE9002CB07B /* FeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48CC6D842AE34D1900BA4782 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				48CC6D852AE34D2B00BA4782 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		48D2F4202AE0A7A000A3D8A2 /* View */ = {
@@ -575,6 +594,7 @@
 				48320DE62ADF4C7500360F31 /* AddEmailView.swift in Sources */,
 				4827B0C42AE02D660007F3BD /* PostGridView.swift in Sources */,
 				48320DEA2ADF639B00360F31 /* CreateUsernameView.swift in Sources */,
+				48CC6D862AE34D2B00BA4782 /* FeedViewModel.swift in Sources */,
 				48D2F4272AE0AAA700A3D8A2 /* ContentViewModel.swift in Sources */,
 				48516D3C2AE29CC600DABD1C /* EditProfileView.swift in Sources */,
 				482E7B862AE1759300D50D6F /* LoginViewModel.swift in Sources */,
