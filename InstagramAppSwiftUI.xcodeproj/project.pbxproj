@@ -14,6 +14,8 @@
 		4827B0C62AE039FD0007F3BD /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827B0C52AE039FD0007F3BD /* ProfileHeaderView.swift */; };
 		4827B0C82AE03D700007F3BD /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827B0C72AE03D700007F3BD /* UploadPostView.swift */; };
 		4827B0CA2AE047200007F3BD /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4827B0C92AE047200007F3BD /* UploadPostViewModel.swift */; };
+		4828016A2AE4122200A6F0AC /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482801692AE4122200A6F0AC /* PostService.swift */; };
+		4828016E2AE4184100A6F0AC /* PostGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828016D2AE4184100A6F0AC /* PostGridViewModel.swift */; };
 		482E7B842AE1606D00D50D6F /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E7B832AE1606D00D50D6F /* RegistrationViewModel.swift */; };
 		482E7B862AE1759300D50D6F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E7B852AE1759300D50D6F /* LoginViewModel.swift */; };
 		482E7B882AE19C0000D50D6F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E7B872AE19C0000D50D6F /* UserService.swift */; };
@@ -77,6 +79,8 @@
 		4827B0C52AE039FD0007F3BD /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		4827B0C72AE03D700007F3BD /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		4827B0C92AE047200007F3BD /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
+		482801692AE4122200A6F0AC /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		4828016D2AE4184100A6F0AC /* PostGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridViewModel.swift; sourceTree = "<group>"; };
 		482E7B832AE1606D00D50D6F /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		482E7B852AE1759300D50D6F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		482E7B872AE19C0000D50D6F /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -143,6 +147,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4828016B2AE4180600A6F0AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				485A4A642ADEC851002CB07B /* UserStatView.swift */,
+				48320DE72ADF623300360F31 /* IGTextFieldModifier.swift */,
+				4827B0C32AE02D660007F3BD /* PostGridView.swift */,
+				48516D482AE2ECAC00DABD1C /* CircularProfileImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4828016C2AE4181600A6F0AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4828016D2AE4184100A6F0AC /* PostGridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		482E7B822AE15FA100D50D6F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +275,7 @@
 			children = (
 				482E7B872AE19C0000D50D6F /* UserService.swift */,
 				48516D412AE2DE1E00DABD1C /* ImageUploader.swift */,
+				482801692AE4122200A6F0AC /* PostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -361,10 +385,8 @@
 		485A4A632ADEB653002CB07B /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				485A4A642ADEC851002CB07B /* UserStatView.swift */,
-				48320DE72ADF623300360F31 /* IGTextFieldModifier.swift */,
-				4827B0C32AE02D660007F3BD /* PostGridView.swift */,
-				48516D482AE2ECAC00DABD1C /* CircularProfileImageView.swift */,
+				4828016C2AE4181600A6F0AC /* ViewModel */,
+				4828016B2AE4180600A6F0AC /* View */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -596,7 +618,9 @@
 				48320DEA2ADF639B00360F31 /* CreateUsernameView.swift in Sources */,
 				48CC6D862AE34D2B00BA4782 /* FeedViewModel.swift in Sources */,
 				48D2F4272AE0AAA700A3D8A2 /* ContentViewModel.swift in Sources */,
+				4828016A2AE4122200A6F0AC /* PostService.swift in Sources */,
 				48516D3C2AE29CC600DABD1C /* EditProfileView.swift in Sources */,
+				4828016E2AE4184100A6F0AC /* PostGridViewModel.swift in Sources */,
 				482E7B862AE1759300D50D6F /* LoginViewModel.swift in Sources */,
 				48516D422AE2DE1E00DABD1C /* ImageUploader.swift in Sources */,
 				482E7B842AE1606D00D50D6F /* RegistrationViewModel.swift in Sources */,
